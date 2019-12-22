@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "description": "App",
   "main": "index.js",
-  "author": "Bain Adapt",
+  "author": "Madan Lokikere",
   "scripts": {
     "test": "jest --verbose --coverage",
     "build": "webpack --progress --colors",
