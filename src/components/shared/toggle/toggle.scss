@@ -1,0 +1,35 @@
+.toggle-container {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  width: 111px;
+  height: 41px;
+  background-color: #ffffff;
+  border: solid 1px #e1e5e7;
+
+  .toggle-icon {
+  }
+
+  .toggle-text {
+    margin-left: 14px;
+    color: #899db5;
+    font-size: 12px;
+  }
+}
+
+.toggle-container:hover {
+  cursor: pointer;
+}
+
+.toggle-container.enabled {
+  background-color: #406da1;
+  border: solid 1px #2f5b8e;
+
+  .toggle-icon {
+  }
+
+  .toggle-text {
+    color: #ffffff;
+  }
+}

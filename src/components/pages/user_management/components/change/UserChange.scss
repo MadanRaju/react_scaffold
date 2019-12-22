@@ -1,0 +1,31 @@
+.mainContainer {
+    display: inline-block;
+    position: inherit;
+    width: 100px;
+    height: 35px;
+    background-color: white;
+}
+
+.editContainer {
+    cursor: pointer;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+    object-fit: contain;
+    background-image: url('./assets/edit.png');
+    background-repeat: no-repeat;
+}
+
+.deleteContainer {
+    cursor: pointer;
+    float: left;
+    width: 17px;
+    height: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+    object-fit: contain;
+    background-image: url('./assets/delete.png');
+    background-repeat: no-repeat;
+}

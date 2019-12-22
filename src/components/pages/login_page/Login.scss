@@ -1,0 +1,293 @@
+@media only screen and (min-device-width: 768px) {
+  .mainContainer-login {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: z;
+    flex-flow: column;
+    align-items: center;
+    .navigation-logo-header {
+      width: 100%;
+      margin: auto;
+      justify-content: space-between;
+      padding: 10px 50px;
+      background-color: #fff;
+    }
+    #dvConatiner {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-image: url('');
+      background-size: cover;
+      background-repeat: no-repeat;
+      .iconContainer-login {
+        display: inline-block;
+        width: 55px;
+        height: 49px;
+        object-fit: contain;
+        background-image: url('');
+        margin-top: 25px;
+        margin-left: 27px;
+      }
+      .incorrectLogin-login {
+        padding-bottom: 10px;
+        color: rgb(220, 20, 60);
+        text-transform: none;
+      }
+      .successForgotPassword {
+        padding-bottom: 10px;
+        color: #4dce42;
+        text-transform: none;
+      }
+      .login-form-login {
+        margin-left: 4%;
+        margin-top: 220px;
+        padding: 35px 111px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+        width: 680px;
+        background-color: #fff;
+      }
+      .inner-heading-container-login {
+        margin-left: -2px;
+        width: 483px;
+        height: 60px;
+        font-family: 'Nunito Sans';
+        font-size: 44px;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #002a4a;
+      }
+      .signin-login {
+        cursor: pointer;
+        width: 196px;
+        height: 54px;
+        border-radius: 3px;
+        background-color: #558ccc;
+        box-shadow: 0 2px 9px 0 rgba(128, 201, 255, 0.53);
+        margin-top: 10px;
+      }
+      .username-box-login {
+        width: 440px;
+        height: 48px;
+        background-color: #fff;
+        box-shadow: 0 0 17px 0 rgba(85, 140, 204, 0.28);
+        border: solid 1px #558ccc;
+        border-radius: 2px;
+        padding-left: 10px;
+      }
+      .username-box-login,
+      username-box-login::-webkit-input-placeholder {
+        font-size: 20px;
+        line-height: 3;
+      }
+      .username-box-login:focus {
+        border: 1px solid #558ccc;
+      }
+      .password-box-login {
+        margin-top: 25px;
+        width: 440px;
+        height: 48px;
+        background-color: #fff;
+        border: solid 1px #97a0b3;
+        border-radius: 2px;
+        padding-left: 10px;
+      }
+      .password-box-login:focus {
+        border: 1px solid #558ccc;
+      }
+      .password-box-login,
+      password-box-login::-webkit-input-placeholder {
+        font-size: 20px;
+        line-height: 3;
+      }
+      .signin-text-login {
+        width: 200px;
+        height: 26px;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        padding: 14px 5px 14px 0px;
+      }
+      .forgot-password-login {
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 327px;
+        width: 114px;
+        height: 19px;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #b3b3b3;
+      }
+      .forgot-password-clicked {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+  .mainContainer-login {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    background-color: z;
+    flex-flow: column;
+    align-items: center;
+    .navigation-logo-header {
+      width: 100%;
+      margin: auto;
+      justify-content: space-between;
+      padding: 10px 50px;
+      background-color: #fff;
+    }
+    #dvConatiner {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      background-image: url('');
+      background-size: cover;
+      background-repeat: no-repeat;
+      .iconContainer-login {
+        display: inline-block;
+        width: 55px;
+        height: 49px;
+        object-fit: contain;
+        background-image: url('');
+        margin-top: 25px;
+        margin-left: 27px;
+      }
+      .incorrectLogin-login {
+        padding-bottom: 10px;
+        color: rgb(220, 20, 60);
+        text-transform: none;
+      }
+      .successForgotPassword {
+        padding-bottom: 10px;
+        color: #4dce42;
+        text-transform: none;
+      }
+      .login-form-login {
+        //margin-left: 4%;
+        margin-top: 20%;
+        padding: 35px 10px 35px 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+        width: 100%;
+        background-color: #fff;
+      }
+      .inner-heading-container-login {
+        margin-left: 10px;
+        width: 100%;
+        height: 60px;
+        font-family: 'Nunito Sans';
+        font-size: 10vw;
+        font-weight: 600;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #002a4a;
+      }
+      .signin-login {
+        cursor: pointer;
+        width: 196px;
+        height: 54px;
+        border-radius: 3px;
+        background-color: #558ccc;
+        box-shadow: 0 2px 9px 0 rgba(128, 201, 255, 0.53);
+        margin-top: 10px;
+      }
+      .username-box-login {
+        width: 100%;
+        height: 48px;
+        background-color: #fff;
+        box-shadow: 0 0 17px 0 rgba(85, 140, 204, 0.28);
+        border: solid 1px #558ccc;
+        border-radius: 2px;
+        padding-left: 10px;
+      }
+      .username-box-login,
+      username-box-login::-webkit-input-placeholder {
+        font-size: 5vw;
+        line-height: 3;
+      }
+      .username-box-login:focus {
+        border: 1px solid #558ccc;
+      }
+      .password-box-login {
+        margin-top: 25px;
+        width: 100%;
+        height: 48px;
+        background-color: #fff;
+        border: solid 1px #97a0b3;
+        border-radius: 2px;
+        padding-left: 10px;
+      }
+      .password-box-login:focus {
+        border: 1px solid #558ccc;
+      }
+      .password-box-login,
+      password-box-login::-webkit-input-placeholder {
+        font-size: 5vw;
+        line-height: 3;
+      }
+      .signin-text-login {
+        width: 200px;
+        height: 26px;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        font-weight: normal;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: 1.86;
+        letter-spacing: normal;
+        text-align: center;
+        color: #fff;
+        padding: 14px 5px 14px 0px;
+      }
+      .forgot-password-login {
+        cursor: pointer;
+        margin-top: 20px;
+        margin-left: 65%;
+        width: 114px;
+        height: 19px;
+        font-family: 'Nunito Sans';
+        font-size: 14px;
+        font-weight: 500;
+        font-style: normal;
+        font-stretch: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #b3b3b3;
+      }
+      .forgot-password-clicked {
+        text-decoration: underline;
+      }
+    }
+  }
+}

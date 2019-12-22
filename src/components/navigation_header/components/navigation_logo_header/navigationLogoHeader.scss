@@ -1,0 +1,44 @@
+.navigation-logo-header {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+  align-items: center;
+  //min-width: 1024px;
+  max-width: 1280px;
+  margin: 10px auto;
+  .left-logo-container {
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    .left-logo-divider {
+      width: 2px;
+      height: 18px;
+      margin: 2px 18px 0px 18px;
+    }
+    .left-logo-title {
+      font-size: 21px;
+      font-weight: normal;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      margin-top: 2px;
+    }
+  }
+  .user-options-container {
+    height: 102px;
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-end;
+    align-items: center;
+    flex-grow: 1;
+    .navigation-header-option {
+      width: 35px;
+      margin: 2px 15px;
+      .option-icon-container {
+        padding-bottom: 0px;
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+# Dependency directory
+node_modules
+
+public/bundle.js
+
+*.DS_Store
+
+package-lock.json
+
+yarn-error.log
+
+# Ignore .env
+.env
+
+# Ignore hot reloader files
+*.*.hot-update.js
+*.hot-update.json
+
+# Ignore coverage
+coverage
+
+
+# Ignore Test Reports
+reports
+public/bundle.js.map

@@ -1,0 +1,119 @@
+
+
+.footer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: gray;
+  height: 79px;
+
+  .footer-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+
+    .link {
+      font-size: 16px;
+      font-family: Helvetica;
+      color: #ffffff;
+      cursor: pointer;
+
+      a {
+        color: #ffffff;
+        outline: 0;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .link-separator {
+      width: 2px;
+      height: 16px;
+      background-color: #ffffff;
+      margin: 0px 25px;
+    }
+  }
+
+  .footer-place-text {
+    font-size: 16px;
+    font-family: Helvetica;
+    color: #ffffff;
+    margin-top: 8px;
+  }
+
+  .footer-logo-text-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    .footer-logo-container {
+      .footer-logo {
+        width: 125px;
+        height: 16px;
+      }
+    }
+
+    .footer-text-container {
+      font-family: Helvetica;
+      font-size: 16px;
+      margin: 8px 2px 2px 20px;
+      color: #ffffff;
+    }
+  }
+}
+
+.privacy {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+
+  .privacy-text {
+    width: 100%;
+    max-width: 1260px;
+    min-height: 675px;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 91px;
+    padding: 25px;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+.terms {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-transform: none;
+
+  .terms-text {
+    width: 100%;
+    max-width: 1260px;
+    min-height: 675px;
+    color: #000000;
+    background-color: #ffffff;
+    margin-top: 91px;
+    padding: 25px;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    ul {
+      list-style-type: none;
+    }
+  }
+}

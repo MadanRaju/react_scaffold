@@ -1,0 +1,36 @@
+.background {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("");
+}
+
+.background-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; // width: 100%;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 80px;
+  height: 150px;
+}
+
+.top-image {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; // width: 100%;
+  display: inline-block;
+  width: 100%;
+  position: absolute;
+  left: 0;
+  height: 80px;
+  background-color: #fff;
+}
+
+.background-container {
+  position: relative;
+}

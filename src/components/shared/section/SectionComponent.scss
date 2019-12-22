@@ -1,0 +1,29 @@
+.section {
+  height: 67px;
+  width: 100%;
+  .section-header {
+    display: flex;
+    justify-content: space-between;
+    width: inherit;
+    height: inherit;
+    border-radius: 3px;
+    background-color: #558ccc;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.03);
+    align-items: center;
+/*    padding-left: 21px;
+    padding-right: 21px;*/
+    padding-left: 3%;
+    padding-right: 3%;
+
+  }
+  .section-text {
+    width: 200px;
+    height: 19px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: left;
+    color: #ffffff;
+  }
+ 
+}

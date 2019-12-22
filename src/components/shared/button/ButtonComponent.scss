@@ -1,0 +1,35 @@
+$button-background-color: #3966B8;
+
+.buttonWrapper {
+    padding-bottom: 20px;
+}
+
+.buttonStyles {
+    /*border-radius: 10px;*/
+    background-color: $button-background-color;
+    color: white;
+    border: none;
+}
+
+.dashboard-button {
+  background-color: #558ccc;
+  font-family: Helvetica;
+  font-size: 14px;
+  /*font-weight: bold;*/
+  line-height: 1.86;
+  text-align: left;
+  color: #ffffff;
+  display: flex;
+  border-left: 0px;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
+  justify-content: space-between;
+  padding-right: 13px;
+  padding-left: 13px;
+
+}
+
+.button-icon {
+  align-self: center;
+
+}

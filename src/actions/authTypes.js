@@ -1,0 +1,10 @@
+//AUTH
+export const AUTH_USER = 'AUTH_USER';
+export const AUTH_ERROR = 'AUTH_ERROR';
+export const AUTH_SUCCESS = 'AUTH_SUCCESS';
+export const LOGOUT = 'LOGOUT';
+export const TOASTER = 'TOASTER';
+export const TOASTER_CLOSE = 'TOASTER_CLOSE';
+export const INCREMENT_API_COUNT = 'INCREMENT_API_COUNT';
+export const DECREMENT_API_COUNT = 'DECREMENT_API_COUNT';
+export const RESET_API_COUNT = 'RESET_API_COUNT';

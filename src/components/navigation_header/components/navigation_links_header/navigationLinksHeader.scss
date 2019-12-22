@@ -1,0 +1,24 @@
+.navigation-links-header {
+  .nav-options-container {
+    height: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: end;
+    align-items: center;
+    flex-grow: 2;
+    min-width: 1024px;
+    max-width: 1280px;
+    margin: auto;
+    a {
+      outline: 0;
+    }
+    a:hover {
+      text-decoration: none;
+    }
+  }
+  @media only screen and (min-device-width: 320px) and (max-device-width: 767px) {
+    .nav-options-container {
+      display: none;
+    }
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "extends": [ "./framework/eslint-rules/index.js" ],
+  "parserOptions": {
+    "ecmaVersion": 8
+  }
+}

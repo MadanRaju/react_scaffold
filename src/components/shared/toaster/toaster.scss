@@ -1,0 +1,43 @@
+.toaster {
+  text-transform: none;
+  .inner {
+    width: 550px; // margin-top: 10%;
+    .header {
+      border-radius: 4px;
+      height: auto;
+      color: #000;
+    }
+    .closeContainer {
+      float: right;
+      line-height: 15px;
+      margin-left: 6px;
+      cursor: pointer;
+    }
+    @mixin header() {
+      min-width: 350px;
+      text-align: center;
+      border-radius: 4px;
+      padding: 16px;
+      position: fixed;
+      left: 40%;
+      z-index: 1;
+      color: #FFF;
+      bottom: 30px;
+      font-size: 14px;
+      font-weight: bold;
+      font-family: 'Nunito';
+    }
+    &.success .header {
+      @include header();
+      background-color: rgba(97, 211, 33, 0.05);
+      border: solid 1px #61d321;
+    }
+    &.error .header {
+      @include header();
+      background-color: #c8363e;
+    }
+  }
+}
+.hide {
+  display: none;
+}

@@ -1,0 +1,49 @@
+.staticPage{
+    width: 100vw;
+    margin: auto;
+    font-size: 14px;
+    .staticHeaderSection{
+        width: 100%;
+        height: 200px;
+        .staticHeaderImage{
+            width: 100%;
+            height: 200px;
+            img{
+                width: 100%;
+                height: 200px;
+            }
+        }
+        .staticHeaderText{
+            font-size: 22px;
+            position: relative;
+            top: -45px;
+            color: white;
+            width: 100%;
+            min-width: 1024px;
+            max-width: 1160px;
+            margin: auto;
+        }
+    }
+    .staticContentSection{
+        display: flex;
+        justify-content: flex-start;
+        width: 100%;
+        min-width: 1024px;
+        max-width: 1160px;
+        margin: auto;
+        .staticContentImage{
+            width: 148px;
+            height: 148px;
+            background-color: #ffffff;
+            border: 1px solid #e5e5e5;
+            img{
+                width: 148px;
+            }
+        }
+        .staticContentText{
+            padding-left: 50px;
+            padding-right: 10px;
+        }
+    }
+}
+

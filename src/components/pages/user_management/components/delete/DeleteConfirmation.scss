@@ -1,0 +1,112 @@
+.main-container-delete {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background-color: rgba(19, 24, 32, 0.8);
+  .main-container-inner-delete {
+    position: absolute;
+    left: 35%;
+    right: 25%;
+    top: 25%;
+    bottom: 25%;
+    margin: auto;
+  }
+  
+  .top-bar-delete {
+      display: inline-block;
+      width: 430px;
+      height: 60px;
+      background-color: gray;
+  }
+  
+  .delete-text {
+      margin-top: 15px;
+      margin-left: 18px;
+      float: left;
+      width: 53px;
+      height: 22px;
+      font-family: 'Nunito Sans';
+      font-size: 18px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: normal;
+      letter-spacing: normal;
+      text-align: left;
+      color: #ffffff;
+  }
+  
+  .close-container-delete {
+      cursor: pointer;
+      margin-top: 20px;
+      float: left;
+      margin-left: 320px;
+      font-size: 12px;
+      font-weight: 800;
+      width: 12px;
+      height: 12px;
+      color: rgba(255, 255, 255, 0.4);
+  }
+  
+  .middle-bar-delete {
+      width: 430px;
+      height: 89px;
+      background-color: #ffffff;
+  }
+  
+  .delete-message {
+      padding-top: 24px;
+      margin-left: 21px;
+      width: 350px;
+      height: 19px;
+      font-family: 'Nunito Sans';
+      font-size: 16px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.19;
+      letter-spacing: normal;
+      text-align: left;
+      color: #354052;
+  }
+  
+  .bottom-bar-delete {
+      float: left;
+      width: 430px;
+      height: 60px;
+      border-radius: 4px;
+      background-color: #f0f3f8;
+  }
+  
+  .confirm-container-delete {
+      cursor: pointer;
+      margin-left: 283px;
+      margin-top: 13px;
+      width: 132px;
+      height: 36px;
+      border-radius: 4px;
+      background-color: gray;
+      border: solid 1px #145b9e;
+  }
+  
+  .confirm-text-delete {
+      margin-left: 38px;
+      margin-top: 9px;
+      width: 50px;
+      height: 19px;
+      font-family: 'Nunito Sans';
+      font-size: 14px;
+      font-weight: 600;
+      font-style: normal;
+      font-stretch: normal;
+      line-height: 1.36;
+      letter-spacing: normal;
+      text-align: center;
+      color: #ffffff;
+  }
+}

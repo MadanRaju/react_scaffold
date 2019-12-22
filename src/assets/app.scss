@@ -1,0 +1,75 @@
+#root {
+  background-color: #f0f2f4;
+  letter-spacing: -0.1px;
+  //background-image: url();
+}
+.app-container {
+  width: 100%;
+  .app-content {
+    position: absolute;
+    z-index: 9999;
+    top: 100px;
+  }
+}
+
+.whiteBackground {
+  background-color: #fff;
+}
+
+// animations
+.slide-in-Y {
+  animation: slide-in-Y 0.5s forwards;
+  -webkit-animation: slide-in-Y 0.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 0.5s forwards;
+  -webkit-animation: slide-out 0.5s forwards;
+}
+
+.slide-in-X {
+  animation: slide-in-X 0.5s forwards;
+  -webkit-animation: slide-in-X 0.5s forwards;
+}
+
+@keyframes slide-in-X {
+  0% {
+    transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes slide-in-X {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+@keyframes slide-in-Y {
+  0% {
+    transform: translateY(100%);
+  }
+}
+
+@-webkit-keyframes slide-in-Y {
+  0% {
+    -webkit-transform: translateY(100%);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    -webkit-transform: translateX(100%);
+  }
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}

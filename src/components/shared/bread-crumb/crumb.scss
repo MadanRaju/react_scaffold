@@ -1,0 +1,19 @@
+
+@import "../../../assets/mixins/color-pallete.scss";
+
+.crumbStyle{
+    color: $inactive-bread-crumb-link;
+    &::after{
+        content: '/';
+        display: inline-flex;
+        padding: 0px 2px;
+    }
+    &:last-child{
+        &::after{
+            content: none
+        }
+    }
+}
+.active{
+    color: $active-blue-link;
+}

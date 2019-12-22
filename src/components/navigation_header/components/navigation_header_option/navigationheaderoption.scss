@@ -1,0 +1,103 @@
+
+
+.navigation-header-option {
+  height: 60px;
+  width: 180px;
+  margin: 0px 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  outline: 0;
+  .option-icon-container {
+    padding-bottom: 9px;
+    img {
+      color: #899db5;
+    }
+  }
+  .option-name-container {
+    margin-bottom: 5px;
+    .option-name {
+      text-transform: none;
+      font-size: 14px;
+      color: #999999;
+      .default-dropdown {
+        height: 18px !important;
+        width: 180px !important;
+        border: none;
+        margin-left: 10px;
+        background-color: unset;
+        .selector-label {
+          color: #899db5 !important;
+          padding-left: 5px;
+        }
+        .list-container {
+          top: 44px !important;
+          border: none;
+          background-color: #ffffff;
+          -webkit-box-shadow: 0px 3px 7px -2px #ccc;
+          /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+          -moz-box-shadow: 0px 3px 7px -2px #ccc;
+          /* Firefox 3.5 - 3.6 */
+          box-shadow: 0px 3px 7px -2px #ccc;
+          /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+          padding: 0px;
+          .list-option {
+            padding: 4px 5px 4px 10px;
+            color: #558ccc;
+            font-weight: normal;
+            margin-top: 0px;
+            margin-bottom: 0px;
+          }
+          .list-option:hover {
+            background-color: #ecf3fc;
+          }
+        }
+        .dropdown-arrow {
+          color: #899db5 !important;
+        }
+      }
+    }
+  }
+}
+
+.navigation-header-option:hover {
+  cursor: pointer;
+}
+
+.navigation-header-option.selected {
+  border-bottom: 3px solid gray;
+  margin: 0;
+  outline: 0;
+  .option-icon-container {
+    img {
+      color: #4481c7;
+    }
+  }
+  .option-name-container {
+    margin-bottom: 0px;
+    .option-name {
+      font-size: 14px;
+      font-weight: bold;
+      color: gray;
+      .default-dropdown {
+        .selector-label {
+          color: #558ccc !important;
+        }
+        .dropdown-arrow {
+          color: #558ccc !important;
+        }
+      }
+    }
+  }
+}
+
+.navigation-header-option.selected.drop,
+.navigation-header-option.drop {
+  .option-icon-container {
+    .logo {
+      width: 40px;
+      height: 22px;
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.paging-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .page-previous {
+    color: #4d84c4;
+    font-size: 18px;
+    cursor: pointer;
+  }
+
+  .page-location {
+    color: #4d84c4;
+    font-size: 18px;
+  }
+
+  .page-next {
+    color: #4d84c4;
+    font-size: 18px;
+    cursor: pointer;
+  }
+}

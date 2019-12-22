@@ -1,0 +1,35 @@
+.toasterModal {
+  text-transform: none;
+  .inner {
+    width: 400px; // margin-top: 10%;
+    .header {
+      // border-radius: 4px;
+      height: auto;
+      // color: black;
+      .closeContainer{
+        // color: black;
+      }
+    }
+    &.success .header {
+      // background: #e5ebe6;
+      display: flex;
+      justify-content: flex-end;
+      padding: 10px;
+    }
+    .body {
+      text-align: center;
+      font-size: 14px;
+      font-weight: bold;
+      padding: 20px;
+      margin: 10px;
+      text-transform: none;
+    }
+    .button .buttonWrapper {
+      float: none;
+      margin-left: 125px;
+    }
+    &.success .bottom-bar {
+      padding: 10px 0px 0px;
+    }
+  }
+}
