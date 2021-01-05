@@ -47,7 +47,7 @@
     "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
-    "axios": "^0.17.1",
+    "axios": "^0.21.1",
     "create-react-class": "^15.6.3",
     "dotenv-webpack": "^1.5.4",
     "es6-promise": "^4.1.1",
