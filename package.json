@@ -55,7 +55,7 @@
     "moment": "^2.18.1",
     "node-sass": "^4.5.3",
     "prop-types": "^15.6.0",
-    "qs": "^6.5.1",
+    "qs": "^6.5.3",
     "react": "^16.4.0",
     "react-bootstrap": "^0.31.3",
     "react-dates": "^16.7.0",
